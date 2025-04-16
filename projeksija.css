@@ -1,0 +1,101 @@
+* {
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    background-color: #ffffff;
+  }
+  
+  .navbar img {
+    height: 30px;
+  }
+  
+  .navbar nav a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+  }
+  
+  .buttons a {
+    margin-left: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .login {
+    color: #1a1a1a;
+  }
+  
+  .book-now {
+    background-color: #e8f1ff;
+    color: #0c2e8a;
+    border: 1.5px solid #0c2e8a;
+  }
+
+  .hero{
+    display: flex;
+  }
+`
+
+  .hero-text{
+    margin: 50px;
+  }
+
+  .hero-text h1{
+    font-style: DM Sanz;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  .hero-text p{
+    margin-bottom: 50px;
+  }
+
+  .btn-primary {
+    background-color: #0c2e8a;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .features-grid{
+    display:flex;
+  }
+  .features{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c2e8a;
+    padding: 20px;
+    color: white;
+    margin: 35px;
+    margin-top: -50px;
+  }
+
+  .feature {
+    width: 100%;
+    text-align: left;
+    gap: 20px;
+  }
+  
+  .feature img {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .feature h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
